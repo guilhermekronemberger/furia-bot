@@ -91,7 +91,6 @@ Para interagir com o bot, basta clicar ou escolher uma das opções disponíveis
 A opção (menu) estará disponível na parte inferior das mensagens para que você possa retornar ao menu principal a qualquer momento.
 '''
 
-
 resultados = '''Últimos resultados:
 
 15 de Abril de 2025

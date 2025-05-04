@@ -1,5 +1,5 @@
 import telebot
-import perfil
+import profile
 import menu
 from config import CHAVE_API
 
@@ -31,10 +31,10 @@ def resultados(mensagem):
 def time(mensagem):
     bot.send_message(mensagem.chat.id, f'{menu.time}\n\n{menu.retornar}')
 
-@bot.message_handler(commands=list(perfil.jogadores.keys()))
+@bot.message_handler(commands=list(profile.jogadores.keys()))
 def jogador_info(mensagem):
     nome_jogador = mensagem.text.lstrip('/').lower()  
-    perfil_jogador = perfil.jogadores.get(nome_jogador)
+    perfil_jogador = profile.jogadores.get(nome_jogador)
 
     if perfil_jogador:
         bot.send_message(mensagem.chat.id, f'{perfil_jogador}\n{menu.retornar}')

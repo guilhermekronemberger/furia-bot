@@ -8,7 +8,7 @@ inicial = '''Clique ou digite para escolher uma opção:\n
 /historia - Saiba mais sobre a história da FURIA no CS
 /titulos - Explore as conquistas da FURIA no CS
 
-/ajuda e /sobre - Para mais informações'''
+/ajuda e /sobre - Para mais informações.'''
 
 historia = '''História da FURIA no CS:
 

@@ -9,6 +9,7 @@ Ao iniciar o bot no Telegram, você verá um menu com as opções abaixo. Basta 
 - `/resultados` – Exibe os resultados mais recentes das partidas disputadas.  
 - `/time` – Exibe o elenco atual com links de redes sociais.  
 - `/historia` – Exibe um resumo da trajetória do time no cenário competitivo de CS.  
+- `/titulos` – Exibe as principais colocações e títulos no cenário competitivo.
 - `/ajuda` – Exibe uma breve explicação de como utilizar o bot.  
 - `/sobre` – Informações sobre o desenvolvimento do projeto.
 

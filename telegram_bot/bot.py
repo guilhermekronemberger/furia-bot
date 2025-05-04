@@ -5,7 +5,6 @@ from config import CHAVE_API
 
 bot = telebot.TeleBot(CHAVE_API)
 
-
 #RETORNAR AO MENU INICIAL
 @bot.message_handler(func=lambda msg: msg.text == menu.retornar)
 def checar(mensagem):
